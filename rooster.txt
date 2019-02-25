@@ -1,539 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>
-      Saxion Roosters 2018/2019
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
-    <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->    <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
-    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/saxion.css?v=6"/>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="container">
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container">
-              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar">
-                </span>
-                <span class="icon-bar">
-                </span>
-                <span class="icon-bar">
-                </span>
-              </button>
-              <a href="/" class="brand">
-                <span>
-                  Roosters
-                </span>
-              </a>
-              <div class="nav-collapse collapse">
-                <ul id="navitems" class="nav ">
-                  <li class="">
-                    <a href="/">
-                      Home
-                    </a>
-                  </li>
-                  <li class="active">
-                    <a href="/groups">
-                      Klassen
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/teachers">
-                      Docenten
-                    </a>
-                  </li>
-                </ul>
-                <form action="/" class="navbar-search form-search pull-right" id="topsearchform" method="post" accept-charset="utf-8">
-                  <div style="display:none;">
-                    <input type="hidden" name="_method" value="POST"/>
-                  </div>
-                  <div class="input-append">
-                    <input name="data[Schedule][q]" value="EHI1VSc" class="isearch-query" placeholder="" type="text" id="ScheduleQ"/>
-                    <input class="btn" type="submit" value="Zoeken"/>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="innercontainer">
-          <div class="row-fluid">
-            <div class="row-fluid">
-              <div class="row-fluid">
-                <div class="span11">
-                  <h4>
-                    <a href="/group/group:EHI1VSc">
-                      EHI1VSc
-                    </a>
-                  </h4>
-                  <h4>
-                    <small>
-                      Van 25-02-19 t/m  01-03-19  · Week 9 · Kwartiel 3.2
-                    </small>
-                  </h4>
-                </div>
-                <div class="scheduleicons span1">
-                  <div class="scheduleicons">
-                    <a href="/schedule/week:0/group:EHI1VSc?print=1" title="Print this schedule" class="print">
-                      <img src="/img/print.png" alt=""/>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="pagination">
-                <ul>
-                  <li class="">
-                    <a href="/schedule/week:-4/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>28-01-19&lt;/strong> t/m  &lt;strong>01-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 5 &amp;middot; kwartiel 2.9" class="hoverlink" data-original-title="">
-                      2.9
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:-3/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>04-02-19&lt;/strong> t/m  &lt;strong>08-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 6 &amp;middot; kwartiel 2.10" class="hoverlink" data-original-title="">
-                      2.10
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:-2/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>11-02-19&lt;/strong> t/m  &lt;strong>15-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 7 &amp;middot; kwartiel 3.1" class="hoverlink" data-original-title="">
-                      3.1
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:-1/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>18-02-19&lt;/strong> t/m  &lt;strong>22-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 8 &amp;middot; kwartiel VAK" class="hoverlink" data-original-title="">
-                      VAK
-                    </a>
-                  </li>
-                  <li class="active">
-                    <a href="/schedule/week:0/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>25-02-19&lt;/strong> t/m  &lt;strong>01-03-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 9 &amp;middot; kwartiel 3.2" class="hoverlink" data-original-title="">
-                      3.2
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:1/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>04-03-19&lt;/strong> t/m  &lt;strong>08-03-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 10 &amp;middot; kwartiel 3.3" class="hoverlink" data-original-title="">
-                      3.3
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:2/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>11-03-19&lt;/strong> t/m  &lt;strong>15-03-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 11 &amp;middot; kwartiel 3.4" class="hoverlink" data-original-title="">
-                      3.4
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:3/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>18-03-19&lt;/strong> t/m  &lt;strong>22-03-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 12 &amp;middot; kwartiel 3.5" class="hoverlink" data-original-title="">
-                      3.5
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="/schedule/week:4/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>25-03-19&lt;/strong> t/m  &lt;strong>29-03-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 13 &amp;middot; kwartiel 3.6" class="hoverlink" data-original-title="">
-                      3.6
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <ul class="pager mobilepagination">
-                <li class="previous">
-                  <a href="/schedule/week:-1/group:EHI1VSc">
-                    Vorige
-                  </a>
-                </li>
-                <li class="next">
-                  <a href="/schedule/week:1/group:EHI1VSc">
-                    Volgende
-                  </a>
-                </li>
-              </ul>
-              <div class="row-fluid">
-                <div class="span12 ">
-                  <a name="2019-02-25">
-                  </a>
-                  <table class="scheduletable table table-condensed table-bordered table-striped">
-                    <tbody>
-                      <tr>
-                        <th class="tabletop" colspan="5">
-                          Maandag 25 februari 2019
-                        </th>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          08:30 - 11:00
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/959BA4E3-F7C9-11E4-9631-923420524153" target="_blank">
-                              L.20058
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Android Programmeren
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:RGR05/week:0">
-                              R. Greven
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G5.33            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Practicum 
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          11:45 - 14:00
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/19E5426B-F7D4-11E4-9631-923420524153" target="_blank">
-                              L.20060
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Algoritmen &amp; Datastructuren
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:RNI15/week:0">
-                              R.P.M.L.C. van den Nieuwenhoff
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G4.28            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Werkcollege 1 
-                          </span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <a name="2019-02-26">
-                  </a>
-                  <table class="scheduletable table table-condensed table-bordered table-striped">
-                    <tbody>
-                      <tr>
-                        <th class="tabletop" colspan="5">
-                          Dinsdag 26 februari 2019
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <a name="2019-02-27">
-                  </a>
-                  <table class="scheduletable table table-condensed table-bordered table-striped">
-                    <tbody>
-                      <tr>
-                        <th class="tabletop" colspan="5">
-                          Woensdag 27 februari 2019
-                        </th>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          11:00 - 12:30
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/29C4D743-F7D8-11E4-AA3C-4A1420524153" target="_blank">
-                              L.20061
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Softwareontwerp
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:SAA/week:0">
-                              E.L. Salomons
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                S0.47            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Hoorcollege 
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          13:15 - 15:45
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/13CCA9E5-F7C7-11E4-9631-923420524153" target="_blank">
-                              L.20055
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Project SElectie
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:TSE01/week:0">
-                              T.E. Sealy
-                            </a>
-                            <br/>
-                            <a href="/schedule/teacher:FDO02/week:0">
-                              F. van Doorn
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G5.31
-                            <br/>
-                            G5.32            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            begeleid 
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          16:30 - 18:00
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/29C4D743-F7D8-11E4-AA3C-4A1420524153" target="_blank">
-                              L.20061
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Softwareontwerp
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:JSA06/week:0">
-                              J.M.J. Sandee
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G7.30            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Werkcollege 
-                          </span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <a name="2019-02-28">
-                  </a>
-                  <table class="scheduletable table table-condensed table-bordered table-striped">
-                    <tbody>
-                      <tr>
-                        <th class="tabletop" colspan="5">
-                          Donderdag 28 februari 2019
-                        </th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <a name="2019-03-01">
-                  </a>
-                  <table class="scheduletable table table-condensed table-bordered table-striped">
-                    <tbody>
-                      <tr>
-                        <th class="tabletop" colspan="5">
-                          Vrijdag 01 maart 2019
-                        </th>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          08:30 - 10:00
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/19E5426B-F7D4-11E4-9631-923420524153" target="_blank">
-                              L.20060
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Algoritmen &amp; Datastructuren
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:RNI15/week:0">
-                              R.P.M.L.C. van den Nieuwenhoff
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G7.30            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Werkcollege 2 
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th rowspan="3" class="times" style="">
-                          10:15 - 13:15
-                        </th>
-                        <th colspan="4" class="namerow">
-                          <span class="pull-right right">
-                            E
-                          </span>
-                          <span>
-                            <a href="https://bison.saxion.nl/catalog/detail/revision/959BA4E3-F7C9-11E4-9631-923420524153" target="_blank">
-                              L.20058
-                            </a>
-                            <br/>
-                          </span>
-                          <span>
-                            1.3: Android Programmeren
-                          </span>
-                        </th>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span class="datacell_left">
-                            <a href="/schedule/teacher:MBI12/week:0">
-                              M.J. ter Schegget
-                            </a>
-                            <br/>
-                          </span>
-                          <span class="datacell_left text-right">
-                          </span>
-                          <span class="pull-right">
-                            
-                G5.29            
-                          </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">
-                          <span>
-                            Workshop 
-                          </span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="mb_25">
-                <div class="pagination">
-                  <ul>
-                    <li class="">
-                      <a href="/schedule/week:-4/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>28-01-19&lt;/strong> t/m  &lt;strong>01-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 5 &amp;middot; kwartiel 2.9" class="hoverlink" data-original-title="">
-                        2.9
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="/schedule/week:-3/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>04-02-19&lt;/strong> t/m  &lt;strong>08-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 6 &amp;middot; kwartiel 2.10" class="hoverlink" data-original-title="">
-                        2.10
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="/schedule/week:-2/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>11-02-19&lt;/strong> t/m  &lt;strong>15-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 7 &amp;middot; kwartiel 3.1" class="hoverlink" data-original-title="">
-                        3.1
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="/schedule/week:-1/group:EHI1VSc" data-content="&lt;small>Van &lt;strong>18-02-19&lt;/strong> t/m  &lt;strong>22-02-19&lt;/strong> &lt;/small>" data-toggle="popover" data-title="Week 8 &amp;middot; kwartiel VAK" class="hoverlink" data-original-title="">
-                        VAK
-                      </a>
-                    </li>
-                    <li class="active">
-                      <
+Saxion Roosters 2018/2019
+
+
+
+
+Roosters
+
+Home
+
+Klassen
+
+Docenten
+
+ EHI1VSc Zoeken
+
+
+
+
+
+EHI1VSc
+Van 25-02-19 t/m 01-03-19 · Week 9 · Kwartiel 3.2
+
+
+
+
+2.9
+2.10
+3.1
+VAK
+3.2
+3.3
+3.4
+3.5
+3.6
+
+
+
+Maandag 25 februari 2019
+08:30 - 11:00	 E L.20058
+ 1.3: Android Programmeren
+R. Greven
+ G5.33
+Practicum 
+11:45 - 14:00	 E L.20060
+ 1.3: Algoritmen & Datastructuren
+R.P.M.L.C. van den Nieuwenhoff
+ G4.28
+Werkcollege 1 
+Dinsdag 26 februari 2019
+Woensdag 27 februari 2019
+11:00 - 12:30	 E L.20061
+ 1.3: Softwareontwerp
+E.L. Salomons
+ S0.47
+Hoorcollege 
+13:15 - 15:45	 E L.20055
+ 1.3: Project SElectie
+T.E. Sealy
+F. van Doorn
+ G5.31
+G5.32
+begeleid 
+16:30 - 18:00	 E L.20061
+ 1.3: Softwareontwerp
+J.M.J. Sandee
+ G7.30
+Werkcollege 
+Donderdag 28 februari 2019
+Vrijdag 01 maart 2019
+08:30 - 10:00	 E L.20060
+ 1.3: Algoritmen & Datastructuren
+R.P.M.L.C. van den Nieuwenhoff
+ G7.30
+Werkcollege 2 
+10:15 - 13:15	 E L.20058
+ 1.3: Android Programmeren
+M.J. ter Schegget
+ G5.29
+Workshop 
+
+
+
+2.9
+2.10
+3.1
+VAK
+3.2
+3.3
+3.4
+3.5
+3.6
+
+
+
+
+
+
+
+
+English · Contact
+ Saxion © 2018/2019
+Updated: 2019-02-25T02:13:03.000Z

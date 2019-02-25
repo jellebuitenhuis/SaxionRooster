@@ -1,14 +1,11 @@
-import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebResponse;
 import com.gargoylesoftware.htmlunit.html.*;
-import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.logging.Level;
 
 public class Tester {
         public static void main(String[] args) throws Exception {
-            WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED); //Initiate a WebClient variable.
+            /*WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED); //Initiate a WebClient variable.
             webClient.getOptions().setJavaScriptEnabled(true);
             webClient.getCookieManager().setCookiesEnabled(true);
             webClient = login(webClient);
@@ -28,8 +25,10 @@ public class Tester {
             finally
             {
                 out.close();
-            }
-            System.out.println(currentPage.asText());
+            }*/
+
+            CalendarParse calendarParse = new CalendarParse();
+            calendarParse.parse();
 
 
         }
