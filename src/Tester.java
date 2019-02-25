@@ -20,9 +20,17 @@ public class Tester {
             String content = response.getContentAsString();
             currentPage = webClient.getPage("https://roosters.saxion.nl/schedule/week:0/group:EHI1VSc");
 
-            PrintWriter out = new PrintWriter("rooster.html");
-            out.println(currentPage.asXml());
+            PrintWriter out = new PrintWriter("rooster.xml");
+            try
+            {
+                out.println(currentPage.asXml());
+            }
+            finally
+            {
+                out.close();
+            }
             System.out.println(currentPage.asText());
+
 
         }
 
