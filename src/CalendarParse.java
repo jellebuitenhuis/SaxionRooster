@@ -15,19 +15,21 @@ public class CalendarParse {
     }
 
     public void parse() throws IOException {
-        String[] day = new String[5];
         File inputFile = new File("rooster.xml");
+        CalendarEvent calendarEvent;
         Document doc = Jsoup.parse(inputFile, "UTF-8");
         for(int i = 0; i < 5;i++) {
             Element table = doc.select("table.scheduletable").get(i);
             Element date = table.select("th.tabletop").first();
-            day[i] = date.text();
-            Elements time = table.select("th.times");
-            for(Element e : time)
+            String day = date.text();
+            Elements times = table.select("th.times");
+            for(Element e : times)
             {
-                day[i] += " " + e.text();
+                String time = e.text();
+                calendarEvent = new CalendarEvent(day, time);
+                calendarEvent.toFile();
+                System.out.println(calendarEvent.toString());
             }
-            System.out.println(day[i]);
         }
     }
 }
