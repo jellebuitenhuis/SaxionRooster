@@ -1,7 +1,2 @@
-Maandag 25 februari 2019 08:30 - 11:00
-Maandag 25 februari 2019 11:45 - 14:00
-Woensdag 27 februari 2019 11:00 - 12:30
-Woensdag 27 februari 2019 13:15 - 15:45
-Woensdag 27 februari 2019 16:30 - 18:00
-Vrijdag 01 maart 2019 08:30 - 10:00
-Vrijdag 01 maart 2019 10:15 - 13:15
+subject,location,start date,start time,end time,end date,description
+1.3: Android Programmeren,G5.33,25/2/2019,08:30,11:00,25/2/2019,R. Greven Practicum
