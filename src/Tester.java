@@ -14,7 +14,7 @@ public class Tester {
 
         public static void main(String[] args) throws Exception {
             CalendarParse calendarParse = new CalendarParse();
-            /*int i = 0;
+            int i = 0;
             String url;
             Scanner sc = new Scanner(System.in);
             System.out.println("What class are you in?");
@@ -41,10 +41,10 @@ public class Tester {
                     out.println(currentPage.asXml());
                 } finally {
                     out.close();
-                }*/
+                }
                 calendarParse.parse();
-                //i++;
-            //}
+                i++;
+            }
 
 
         }

@@ -6,3 +6,10 @@ subject,location,start date,start time,end time,end date,description
 1.3: Softwareontwerp,G7.30,27/2/2019,16:30,18:00,27/2/2019,J.M.J. Sandee Werkcollege?
 1.3: Algoritmen & Datastructuren,G7.30,1/3/2019,08:30,10:00,1/3/2019,R.P.M.L.C. van den Nieuwenhoff Werkcollege 2?
 1.3: Android Programmeren,G5.29,1/3/2019,10:15,13:15,1/3/2019,M.J. ter Schegget Workshop?
+1.3: Android Programmeren,G5.33,25/2/2019,08:30,11:00,25/2/2019,R. Greven Practicum?
+1.3: Algoritmen & Datastructuren,G4.28,25/2/2019,11:45,14:00,25/2/2019,R.P.M.L.C. van den Nieuwenhoff Werkcollege 1?
+1.3: Softwareontwerp,S0.47,27/2/2019,11:00,12:30,27/2/2019,E.L. Salomons Hoorcollege?
+1.3: Project SElectie,G5.31 G5.32,27/2/2019,13:15,15:45,27/2/2019,T.E. Sealy F. van Doorn begeleid?
+1.3: Softwareontwerp,G7.30,27/2/2019,16:30,18:00,27/2/2019,J.M.J. Sandee Werkcollege?
+1.3: Algoritmen & Datastructuren,G7.30,1/3/2019,08:30,10:00,1/3/2019,R.P.M.L.C. van den Nieuwenhoff Werkcollege 2?
+1.3: Android Programmeren,G5.29,1/3/2019,10:15,13:15,1/3/2019,M.J. ter Schegget Workshop?
