@@ -25,9 +25,9 @@ public class Tester {
             getCreds();
             File f = new File("schedule.txt");
             f.delete();
-            PrintWriter out = new PrintWriter(f);
-            out.println("subject,location,start date,start time,end time,end date,description");
-            out.close();
+            PrintWriter p = new PrintWriter(f);
+            p.println("subject,location,start date,start time,end time,end date,description");
+            p.close();
             while(!calendarParse.end() && i < maxWeeks) {
                 url = "https://roosters.saxion.nl/schedule/group:" + userClass + "/week:" + i;
                 WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED); //Initiate a WebClient variable.
