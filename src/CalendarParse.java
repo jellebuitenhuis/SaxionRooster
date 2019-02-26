@@ -10,6 +10,8 @@ import java.text.ParseException;
 
 public class CalendarParse {
 
+    public static boolean end = false;
+
     public CalendarParse()
     {
 
@@ -19,6 +21,18 @@ public class CalendarParse {
         File inputFile = new File("rooster.xml");
         CalendarEvent calendarEvent;
         Document doc = Jsoup.parse(inputFile, "UTF-8");
+        Element span11 = doc.select("div.span11").first();
+        Elements weeknumber = span11.select("h4");
+        for(Element p : weeknumber)
+        {
+            String week = p.select("small").text();
+            week = week.substring(week.indexOf(".")+1).trim();
+            System.out.println(week);
+            if(week.equals("10"))
+            {
+                end = true;
+            }
+        }
         for(int i = 0; i < 5;i++) {
             Element table = doc.select("table.scheduletable").get(i);
             Element date = table.select("th.tabletop").first();
@@ -37,5 +51,10 @@ public class CalendarParse {
                 j+=7;
             }
         }
+    }
+
+    public boolean end()
+    {
+        return end;
     }
 }

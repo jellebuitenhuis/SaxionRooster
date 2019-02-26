@@ -86,7 +86,7 @@
                 </div>
                 <div class="scheduleicons span1">
                   <div class="scheduleicons">
-                    <a href="/schedule/week:0/group:EHI1VSc?print=1" title="Print this schedule" class="print">
+                    <a href="/schedule/group:EHI1VSc/week:0?print=1" title="Print this schedule" class="print">
                       <img src="/img/print.png" alt=""/>
                     </a>
                   </div>
@@ -604,7 +604,7 @@
         </p>
         <p class="muted">
           Updated:
-                2019-02-25T02:13:03.000Z            
+                2019-02-26T02:13:02.000Z            
         </p>
         <!-- <div class="badge badge-warning">API cache disabled!</div> -->      </div>
       <div class="footerlogo">
