@@ -29,14 +29,6 @@ public class CalendarEvent {
     }
 
     public void toFile() throws IOException, ParseException {
-        File f = new File("schedule.txt");
-
-        if(!f.exists())
-        {
-            PrintWriter out = new PrintWriter(f);
-            out.println("subject,location,start date,start time,end time,end date,description");
-            out.close();
-        }
         FileWriter fileWriter = new FileWriter("schedule.txt", true);
         PrintWriter out = new PrintWriter(fileWriter);
         String starttime = time.substring(0, time.indexOf("-")).trim();

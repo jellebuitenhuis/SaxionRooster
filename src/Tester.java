@@ -3,6 +3,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebResponse;
 import com.gargoylesoftware.htmlunit.html.*;
 
+import java.io.File;
 import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -22,6 +23,11 @@ public class Tester {
             System.out.println("How many weeks of this quartile?(This week counts as 1)");
             int maxWeeks = sc.nextInt();
             getCreds();
+            File f = new File("schedule.txt");
+            f.delete();
+            PrintWriter out = new PrintWriter(f);
+            out.println("subject,location,start date,start time,end time,end date,description");
+            out.close();
             while(!calendarParse.end() && i < maxWeeks) {
                 url = "https://roosters.saxion.nl/schedule/group:" + userClass + "/week:" + i;
                 WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED); //Initiate a WebClient variable.
