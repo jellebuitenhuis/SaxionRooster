@@ -21,34 +21,29 @@ public class CalendarParse {
         File inputFile = new File("rooster.xml");
         CalendarEvent calendarEvent;
         Document doc = Jsoup.parse(inputFile, "UTF-8");
-        Element span11 = doc.select("div.span11").first();
-        Elements weeknumber = span11.select("h4");
-        for(Element p : weeknumber)
+        Elements days = doc.select("days");
+        Element week = doc.select("week").first();
+        String quartileweek = week.select("quartile_week").first().text();
+        quartileweek = quartileweek.substring(quartileweek.indexOf(".")+1).trim();
+        if(quartileweek.equals("10"))
         {
-            String week = p.select("small").text();
-            week = week.substring(week.indexOf(".")+1).trim();
-            System.out.println(week);
-            if(week.equals("10"))
-            {
-                end = true;
-            }
+            end = true;
         }
-        for(int i = 0; i < 5;i++) {
-            Element table = doc.select("table.scheduletable").get(i);
-            Element date = table.select("th.tabletop").first();
-            String day = date.text();
-            Elements times = table.select("th.times");
-            int j = 2;
-            for(Element e : times)
+
+        for(Element d : days) {
+            Elements subjects = d.select("entries");
+            if(!subjects.text().isEmpty())
             {
-                String subject = table.select("span").get(j).text();
-                String location = table.select("span").get(j+3).text();
-                String time = e.text();
-                String description = table.select("span").get(j+1).text() + " " + table.select("span").get(j+4).text();
-                calendarEvent = new CalendarEvent(day, time, subject, location, description);
-                calendarEvent.toFile();
-                System.out.println(calendarEvent.toString());
-                j+=7;
+                for(Element s : subjects) {
+                    String day = s.select("date").text();
+                    String starttime = s.select("start").text();
+                    String endtime = s.select("end").text();
+                    String subject = s.select("name").text();
+                    String location = s.select("room").text();
+                    String description = s.select("teachername").text();
+                    calendarEvent = new CalendarEvent(day, starttime, endtime, subject, location, description);
+                    calendarEvent.toFile();
+                }
             }
         }
     }
